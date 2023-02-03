@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/CandidMoment.Master" AutoEventWireup="true" CodeBehind="AboutPage.aspx.cs" Inherits="C3296512_Assign1.UserLayer.AboutPage" %>
+<%@ Page Title="" Language="C#" MasterPageFile="~/CandidMoment.Master" AutoEventWireup="true" CodeBehind="AboutPage.aspx.cs" Inherits="C3296512_Assign1.UserLayer.AboutPage" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <title>C-About</title>
@@ -21,7 +21,7 @@
     <%--Jumbotron finished--%>
 
     <%--Paragraph starts here--%>
-    <div class="container-fluid text-center" style="background-color: ghostwhite">
+    <div class="container-fluid text-center" style="background-color: transparent; width: 50%">
         <p style="font-family: lato; font-size: 20px">
             Hi and Welcome to our page <b>"Candid Moments" </b>.
             We are Newcastle, Australia based <strong>One and only</strong> company who sells very <strong>Rare and Special</strong> professional Cameras and Camera parts.
