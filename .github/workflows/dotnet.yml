@@ -19,7 +19,7 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
       with:
-        dotnet-version: 4.0.x
+        dotnet-version: 4.7.2
     - name: Restore dependencies
       run: dotnet restore C3296512_Assign2/C3296512_Assign1/C3296512_Assign1.csproj
     - name: Build
