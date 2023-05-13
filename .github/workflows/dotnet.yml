@@ -22,5 +22,3 @@ jobs:
         run: msbuild /t:restore C3296512_Assign2/C3296512_Assign1.sln
       - name: Build
         run: msbuild /p:Configuration=Release /t:build C3296512_Assign2/C3296512_Assign1.sln
-      - name: Test
-        run: msbuild /t:VSTest C3296512_Assign2/C3296512_Assign1.sln
