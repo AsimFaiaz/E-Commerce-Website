@@ -19,8 +19,8 @@ jobs:
         with:
           msbuild-version: '16.0'
       - name: Restore dependencies
-        run: msbuild /t:restore C3296512_Assign1/C3296512_Assign1.csproj
+        run: msbuild /t:restore C3296512_Assign2/C3296512_Assign1.sln
       - name: Build
-        run: msbuild /p:Configuration=Release /t:build C3296512_Assign1/C3296512_Assign1.csproj
+        run: msbuild /p:Configuration=Release /t:build C3296512_Assign2/C3296512_Assign1.sln
       - name: Test
-        run: msbuild /t:VSTest C3296512_Assign1/C3296512_Assign1.csproj
+        run: msbuild /t:VSTest C3296512_Assign2/C3296512_Assign1.sln
