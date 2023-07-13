@@ -26,8 +26,6 @@
 
 <h3>Please note for both options make sure to update the connection string in web.config file. Simply put your connection string inside the "<>connectionStrings<>" tag </h3>
 
+<hr>
 
-
-# E-Commerce-Website
-INFT3050 - Web Programming using C# asp.NET, Bootstrap, TSQL, MSS Server
-# ONLY for EDUCATIONAL Or LEARNING PURPOSES. NOT to be used for any kind of University assignments or Projects
+<h3>Please note: This repo contains items Only for EDUCATIONAL OR LEARNING. NOT to be used in any kind of UNIVERSITY ASSIGNMENTS OR PROJECTS</h3>
