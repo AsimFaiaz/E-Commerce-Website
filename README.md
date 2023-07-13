@@ -17,7 +17,7 @@
 <h2>How to run the project:</h2>
 
 <h3><u>Option 1:</u></h3>
-<p>&bull; Simply run the .sln file in Visual Studio</p>
+<p>&bull; Simply run the .sln file in Visual Studio if the project file downloaded manually</p>
 
 <h3><u>Option 2:</u></h3>
 <p>&bull; Open Visual Studio</p>
