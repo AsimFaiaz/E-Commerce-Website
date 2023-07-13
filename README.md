@@ -24,7 +24,7 @@
 <p>&bull; Clone the repo (Github Link)</p>
 <p>&bull; Run the project</p>
 
-<h3>Please note for both options make sure to update the connection string in web.config file. Simply put your connection string inside the "<connectionStrings>" tag </h3>
+<h3>Please note for both options make sure to update the connection string in web.config file. Simply put your connection string inside the "<>connectionStrings<>" tag </h3>
 
 
 
