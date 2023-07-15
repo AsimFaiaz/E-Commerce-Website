@@ -1,11 +1,15 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/CandidMoment.Master" AutoEventWireup="true" CodeBehind="HomePage.aspx.cs" Inherits="C3296512_Assign1.UserLayer.HomePage" %>
+<%@ Page Title="" Language="C#" MasterPageFile="~/CandidMoment.Master" AutoEventWireup="true" CodeBehind="HomePage.aspx.cs" Inherits="C3296512_Assign1.UserLayer.HomePage" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <title>C-Home</title>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-
+    <style>
+        .glyphicon.glyphicon-chevron-left:{
+            color: black;
+        }
+    </style>
    <%-- Will work on that soon--%>
 
     <%--Using Jumbotron to make a box kinda shape and display some information--%>
@@ -265,12 +269,12 @@
     <br />
 
     <%--About section starts here--%>
-    <div class="container-fluid text-center">
+    <div class="container-fluid text-center" style="text-align: center;">
         <h2>
             <asp:Label ID="lblHomePageABout" runat="server" Text=""></asp:Label>
             A bit about us..</h2>
         <br />
-        <p style="font-family: lato; font-size: 20px; background-color: whitesmoke;">
+        <p style="font-family: lato; font-size: 20px;">
             So..We are specialist in selling rare Brand new or Secondhand professional cameras imported from different countries.
                 We also deal with Wedding photography, Event photography and so on. 
              <br />
@@ -292,7 +296,7 @@
         <p style="font-family: lato; font-size: 20px">
             To get in touch with us please click on the link below. 
              <br />
-            <asp:Button ID="btnHomePageContact" class="btn btn-lg btn-link" role="button" Style="font-size: 20px; font-family: lato; color: green" runat="server" OnClick="btnHomePageContact_Click" Text="Click to Contact" />
+            <asp:Button ID="btnHomePageContact" class="btn btn-lg btn-link" role="button" Style="font-size: 20px; font-family: lato; color: green" runat="server" OnClick="btnHomePageContact_Click" Text="Contact Us" />
         </p>
     </div>
     <%--Contact section ends here--%>
