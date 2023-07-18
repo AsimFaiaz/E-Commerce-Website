@@ -1,3 +1,6 @@
+# E-Commerce-Website [![.NET Framework](https://github.com/OudomMunint/E-Commerce-Website/actions/workflows/dotnet.yml/badge.svg)](https://github.com/OudomMunint/E-Commerce-Website/actions/workflows/dotnet.yml)
+INFT3050 - Web Programming using C# asp.NET, Bootstrap, TSQL, MSS Server
+
 <h1>Course: Web Programming</h1>
 
 <h2>Repo Contains:</h2>
